@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Box from "./myComp/box";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div
+        style={{
+          fontSize: "45px",
+          alignContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          textDecoration: "underline",
+        }}
+      >
+        <b> Four-in-a-row GAME </b>
+      </div>
+      <Box size="500px" />
     </div>
   );
 }
